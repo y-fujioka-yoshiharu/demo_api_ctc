@@ -1,0 +1,57 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "説明なし",
+    "version" : "1.0.0",
+    "title" : "名前リスト"
+  },
+  "host" : "1sc4bdj.ap.api-mocks.com",
+  "schemes" : [ "https" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/nameget/{id}" : {
+      "get" : {
+        "summary" : "名前リスト取得",
+        "description" : "namelist.csvにあるidの名前を取得する",
+        "produces" : [ "text/html" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "type" : "object",
+              "properties" : { }
+            },
+            "examples" : {
+              "text/html" : "ID:1,Name:dev1"
+            }
+          },
+          "404" : {
+            "description" : "存在しないIDの場合"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "id",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  },
+  "definitions" : {
+    "namelist" : {
+      "type" : "object",
+      "properties" : {
+        "id" : {
+          "type" : "number"
+        },
+        "name" : {
+          "type" : "string"
+        }
+      },
+      "example" : "{\r\n    \"id\": 1,\r\n    \"name\": \"dev1\"\r\n}"
+    }
+  }
+}
