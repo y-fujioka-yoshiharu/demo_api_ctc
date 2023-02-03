@@ -1,0 +1,39 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "説明なし",
+    "version" : "1.0.0",
+    "title" : "apitestjob",
+    "contact" : { }
+  },
+  "host" : "roj3u0n.ap.api-mocks.com",
+  "schemes" : [ "https" ],
+  "consumes" : [ "text/html" ],
+  "produces" : [ "text/html" ],
+  "paths" : {
+    "/rt/{id}" : {
+      "get" : {
+        "summary" : "apitestjob",
+        "produces" : [ "text/html" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "type" : "string"
+            },
+            "examples" : {
+              "text/html" : "aaa"
+            }
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "id",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  }
+}
