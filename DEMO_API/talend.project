@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Nm_3sWFXEe2vGLAXkn8CeA" label="demo_api" language="java" technicalLabel="DEMO_API" author="_NnAewGFXEe2vGLAXkn8CeA" productVersion="Talend Cloud API Services Platform-8.0.1.20220923_1236-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/y-fujioka-yoshiharu/demo_api_ctc.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_Nm_3sWFXEe2vGLAXkn8CeA" label="demo_api" language="java" technicalLabel="DEMO_API" author="_NnAewGFXEe2vGLAXkn8CeA" productVersion="Talend Cloud API Services Platform-8.0.1.20230612_1054-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/y-fujioka-yoshiharu/demo_api_ctc.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_NpJz0GFXEe2vGLAXkn8CeA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_NnAewGFXEe2vGLAXkn8CeA" login="air04@nfr2.air.co.jp" firstName="air04" lastName="air04" type="DQ"/>
   <TalendProperties:User xmi:id="_PFH7oG-GEe2ReN8t8DSeKg" login="air03@nfr2.air.co.jp" firstName="air03" lastName="air03" type="DQ"/>
+  <TalendProperties:User xmi:id="_OSXlMEuREe6PO_Egppniag" login="air01@nfr2.air.co.jp" firstName="air01" lastName="air01_koda" type="DQ"/>
 </xmi:XMI>
